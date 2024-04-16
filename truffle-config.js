@@ -7,7 +7,7 @@ module.exports = {
       provider: () =>
         new HDWalletProvider(
           process.env.MNEMONIC,
-          `https://sepolia.infura.io/v3/${process.env.INFURA_API_KEY}`,
+          `https://sepolia.infura.io/v3/f56539b4811646f1a405f711f11ed61a`,
           
           {timeout: 120000},
         ),
